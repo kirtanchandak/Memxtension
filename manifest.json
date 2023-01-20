@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Memxtension",
+    "description": "This extension makes you laugh. Install - Open YouTube - Laugh",
+    "icons": {
+        "16": "logo32.png",
+        "48": "logo32.png",
+        "128": "logo32.png"
+        },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js":["Content.js"]
+        }
+    ]
+}
